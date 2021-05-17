@@ -20,7 +20,6 @@ main {
 }
 
 article {
-  /* width: 85%; */
   margin: 5%;
   background-color: #ffffff;
   box-shadow: 1px 1px 12px 0px #72727250;
@@ -39,8 +38,6 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* display: none; */
-  /* align-items: center; */
 }
 
 section {
