@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    padding: 0 20%;
+    justify-content: space-around;
+    background-color: #002030;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.nav-links:hover {
+    color: #1d8dd8;
+}

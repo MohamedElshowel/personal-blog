@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Post 1</title>
-    <link rel="stylesheet" href="blog-post.css" />
+    <link rel="stylesheet" href="css/blog-post.css" />
 </head>
 
 <body>
@@ -26,67 +26,48 @@
 
         <main>
             <article>
-                <h1>Blog Post</h1>
+                <h1>React JS</h1>
+                <img class="article__image" src="images/react-icon.png" alt="React Icon" />
+                <figcaption><em>React Icon. Developed by Facebook.</em></figcaption>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit
-                    amet metus sollicitudin, ornare nulla quis, pulvinar est.
-                    Suspendisse hendrerit fermentum orci eu pulvinar. Aenean neque nibh,
-                    gravida id felis non, hendrerit vehicula risus. Mauris enim erat,
-                    dignissim eu enim non, consectetur laoreet tellus. Quisque ultricies
-                    est sit amet tellus bibendum, sed posuere magna condimentum. Morbi
-                    vel ullamcorper lacus. Integer maximus facilisis enim, id commodo
-                    nulla varius eu. Phasellus ultricies massa urna, eget euismod lacus
-                    porta id. Mauris sit amet dui ligula. Nunc tincidunt ante nec leo
-                    accumsan, sit amet volutpat tortor posuere. Proin in porta diam. Nam
-                    congue lorem magna, non sollicitudin dolor congue ac. Maecenas urna
-                    risus, euismod at aliquet non, cursus id velit. Nunc eget varius
-                    augue. Cras nec urna fermentum, commodo enim sit amet, dapibus est.
-                    Aenean sodales convallis magna a tempor. Proin a scelerisque mi.
-                    Fusce tempor magna risus, tempor blandit dolor facilisis ac. Duis
-                    euismod diam at pellentesque rhoncus. Aenean malesuada, felis sed
-                    egestas tristique, lacus diam maximus nisl, in cursus enim sapien
-                    non tellus. In tincidunt nisl non nisl feugiat consectetur. Aliquam
-                    erat volutpat. Maecenas at eros non tellus imperdiet efficitur ut
-                    vitae felis. Curabitur et ex eu eros volutpat rutrum sit amet nec
-                    turpis. Vestibulum placerat id diam id convallis. Duis libero diam,
-                    gravida nec metus id, molestie laoreet diam. Vivamus dapibus magna
-                    in sem lacinia, eu elementum velit malesuada. Phasellus consectetur
-                    eleifend diam, aliquet blandit nisl. Sed fringilla leo eget quam
-                    feugiat volutpat. Fusce scelerisque elit ex, id pellentesque sapien
-                    dignissim ac. Class aptent taciti sociosqu ad litora torquent per
-                    conubia nostra, per inceptos himenaeos. Phasellus venenatis odio
-                    diam, non euismod purus blandit a. Ut augue magna, consectetur sit
-                    amet tincidunt et, ornare quis nisl. Vestibulum cursus porttitor
-                    erat, id semper diam congue luctus. Ut in auctor ligula. Curabitur
-                    in libero in mi scelerisque ullamcorper. Fusce vel justo vitae diam
-                    fermentum pharetra a vel nisl. Vestibulum et justo nec sapien varius
-                    aliquam vitae eu ex. Integer elit ante, sollicitudin et placerat in,
-                    dictum nec sapien. Nam dolor felis, malesuada sed ligula a, varius
-                    tincidunt dolor. Phasellus eros nunc, scelerisque in scelerisque a,
-                    gravida placerat dui. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus. Nunc dapibus mauris vel nunc euismod fringilla.
-                    Quisque dapibus turpis quis ipsum malesuada, nec maximus erat
-                    vulputate. Suspendisse feugiat arcu odio, id varius ipsum commodo
-                    non. Aenean a orci molestie, dignissim turpis vel, dictum nisi.
-                    Suspendisse facilisis bibendum vulputate. Cras ultrices est ipsum,
-                    vitae gravida magna mattis tincidunt. Nulla facilisi. Etiam auctor
-                    dui fermentum mattis lobortis. Curabitur dapibus nunc ut lectus
-                    feugiat, sed luctus quam consequat. Praesent a viverra diam. Donec
-                    vitae arcu facilisis, consequat eros et, blandit enim. Quisque
-                    ornare ante in semper faucibus. Morbi pharetra libero et suscipit
-                    semper. Morbi ex est, fringilla tincidunt nibh eu, tempus commodo
-                    augue. Sed et lorem tristique, placerat libero sed, consectetur
-                    tortor. Sed dignissim enim tellus. Nullam sollicitudin tellus non
-                    tincidunt dignissim. Phasellus varius maximus vestibulum. Donec ac
-                    pulvinar dolor. Curabitur lobortis, mauris in hendrerit interdum,
-                    mauris purus consectetur sapien, eu pellentesque lorem sem non diam.
-                    Nulla dictum sodales risus ac pharetra. Mauris gravida maximus
-                    nulla, ut accumsan arcu elementum non. Maecenas ultrices metus ut
-                    iaculis condimentum.
+                    <b>React 17 enables gradual React upgrades.</b> When you upgrade from React 15 to 16 (or, this time,
+                    from
+                    React 16 to 17), you would usually upgrade your whole app at once. This works well for many apps.
+                    But it can get increasingly challenging if the codebase was written more than a few years ago and
+                    isn’t actively maintained. And while it’s possible to use two versions of React on the page, until
+                    React 17 this has been fragile and caused problems with events.
                 </p>
+
+                <p>
+                    We’re fixing many of those problems with React 17. This means that <b><em>when React 18 and the next
+                            future
+                            versions come out, you will now have more options.</em></b> The first option will be to
+                    upgrade your whole
+                    app at once, like you might have done before. But you will also have an option to upgrade your app
+                    piece by piece. For example, you might decide to migrate most of your app to React 18, but keep some
+                    lazy-loaded dialog or a subroute on React 17.
+                </p>
+
+                <p>
+                    This doesn’t mean you have to do gradual upgrades. <u><b>For most apps, upgrading all at once is
+                            still the
+                            best solution.</b></u> Loading two versions of React — even if one of them is loaded lazily
+                    on demand — is
+                    still not ideal. However, for larger apps that aren’t actively maintained, this option makes sense
+                    to consider, and React 17 lets those apps not get left behind.
+                </p>
+
+                <blockquote>
+                    <em>
+                        We’ve prepared an example repository demonstrating how to lazy-load an older version of React if
+                        necessary. This demo uses Create React App, but it should be possible to follow a similar
+                        approach
+                        with any other tool. We welcome demos using other tooling as pull requests.
+                    </em>
+                </blockquote>
             </article>
             <aside>
-                <section>
+                <section class="article__author">
                     <h2>About Author</h2>
                     <p>Front-End Software Developer with artistic and engineering backgrounds seeking for learning new
                         technologies and gaining more experience in developing web-based applications that create a real
@@ -94,13 +75,14 @@
                         utilizing my development skills and artistic background.
                     </p>
                 </section>
-                <section>
+                <section class="article__social-media-sharing">
                     <h2>Share Article</h2>
                     <ul>
-                        <li><a class="share-link" href="#">Facebook</a></li>
-                        <li><a class="share-link" href="#">Twitter</a></li>
-                        <li><a class="share-link" href="#">LinkedIn</a></li>
+                        <li><a class="article__share-link" href="#">Facebook</a></li>
+                        <li><a class="article__share-link" href="#">Twitter</a></li>
+                        <li><a class="article__share-link" href="#">LinkedIn</a></li>
                     </ul>
+                    <button id="subscribe-btn">Subscribe</button>
                 </section>
             </aside>
         </main>
